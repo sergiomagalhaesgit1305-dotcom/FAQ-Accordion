@@ -8,6 +8,7 @@ body {
 main {
     background-image: url('assets/images/background-pattern-desktop.svg');
     background-repeat: no-repeat;
+    background-position: top center;
     background-size: 100%;
     min-height: 100vh;
 }
@@ -26,7 +27,7 @@ main {
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 600px;
+    max-width: 37.5em;
     border-radius: 15px;
     padding: 1.25rem;
 }
@@ -35,7 +36,7 @@ main {
     display: flex;
     align-items: center;
     padding: 0.5rem 0;
-    margin-left: 10px;
+    margin-inline-start: 10px;
     gap: 15px;
 }
 
@@ -45,11 +46,11 @@ h1 {
 }
 
 
-h3 {
+h2 {
     color: hsl(292, 42%, 14%);
     flex: 1;
     margin: 0;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 p {
@@ -82,7 +83,6 @@ hr {
 @media (max-width: 375px) {
     main {
         background-image: url('assets/images/background-pattern-mobile.svg');
-        background-size: cover;
         background-position: top center;
         background-size: 100%;
     }
