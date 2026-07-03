@@ -25,17 +25,16 @@ main {
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
-    position: relative;
     width: 100%;
     max-width: 600px;
     border-radius: 15px;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 .title {
     display: flex;
     align-items: center;
-    height: 6em;
+    padding: 0.5rem 0;
     margin-left: 10px;
     gap: 15px;
 }
@@ -56,7 +55,7 @@ h3 {
 p {
     color: hsl(292, 16%, 49%);
     font-size: 16px;
-    margin: 2 0.5em;
+    margin: 0.5rem 0;
 }
 
 
@@ -83,8 +82,9 @@ hr {
 @media (max-width: 375px) {
     main {
         background-image: url('assets/images/background-pattern-mobile.svg');
-        background-size: 500px;
-        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center;
+        background-size: 100%;
     }
 
     .card {
