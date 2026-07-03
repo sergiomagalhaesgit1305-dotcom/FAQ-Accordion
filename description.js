@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const answer = question.nextElementSibling;
             const icon = question.querySelector(".icon");
 
-            if (answer.style.display == "block") {
+            if (answer.style.display === "block") {
                 answer.style.display = "none";
 
                 icon.innerHTML = `<img src="assets/images/icon-plus.svg" alt="Plus that sits to the right of the paragraph">`;
